@@ -1,10 +1,9 @@
 {
   "name": "1909-cookies",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "./node_modules/.bin/nodemon --watch server -q server/index.js & ./node_modules/.bin/webpack --mode=\"development\" --watch"
+    "start:dev": "nodemon --watch server -q server/index.js & ./node_modules/.bin/webpack --mode=\"development\" --watch"
   },
   "keywords": [],
   "author": "",
@@ -29,5 +28,14 @@
     "nodemon": "^2.0.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deannawong/1909-cookies.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deannawong/1909-cookies/issues"
+  },
+  "homepage": "https://github.com/deannawong/1909-cookies#readme",
+  "description": ""
 }
